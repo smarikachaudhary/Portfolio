@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    background:linear-gradient();
+    background: no-repeat();
+}
+h1{
+    font-family: Merienda;
+    font-size: 15px;
+    font-weight: 500;
+    color:greenyellow;
+    font-style:oblique;
+    text-decoration: wavy;
+}
+.paragraph1{
+    border-style: inset;
+    width:200px;
+    height:200;
+    padding:500;
+
+}
+#paragraph2{
+border-style: dashed;
+width:400;
+height: 500;
+padding:300;
+}
+.paragraph3{
+    border-style:groove;
+    width:200;
+    height:300;
+    padding:400;
+}

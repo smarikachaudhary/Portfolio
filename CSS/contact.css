@@ -4,7 +4,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-
+body{
+    min-height: 100vh;
+}
 .navbar{
     position: fixed;
     width: 100%;
@@ -82,7 +84,7 @@
 
 .max-width{
     background-color: #167785ff; 
-    height: 100vh;
+    min-height: 100vh;
 }
 section .title{
     position: relative;
@@ -118,7 +120,7 @@ section .title::after{
     content: "get in touch";
 }
 .contact-content{
-    padding-bottom: 153px;
+    padding-bottom: 00px;
 }
 .left, .right{
     padding-top: 50px;
@@ -237,9 +239,7 @@ footer span {
     padding-left: 50px;
     padding-right: 50px;
 }
-.contact {
-    height:100vh;
-}
+
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
